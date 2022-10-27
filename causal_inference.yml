@@ -1,0 +1,23 @@
+name: causal-inference-py39
+channels:
+    - conda-forge
+dependencies:
+    - python==3.9.12
+    - jupyter
+    - jinja2
+    - pandas>=1.3.5
+    - numpy
+    - scipy
+    - statsmodels==0.13.2
+    - scikit-learn
+    - matplotlib
+    - seaborn
+    - plotly
+    - pip
+    - tqdm
+    - flask
+    - pip:
+        - tensorflow>=2.10.0
+        - tensorflow_probability>=0.18.0
+        - streamlit
+        - tfcausalimpact
